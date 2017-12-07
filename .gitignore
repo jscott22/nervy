@@ -1,0 +1,49 @@
+# App artifacts
+fw/_build
+fw/db
+fw/deps
+fw/*.ez
+
+# Nerves artifacts
+fw/_images
+fw/.nerves
+
+# Generate on crash by the VM
+fw/erl_crash.dump
+fw/config
+
+
+.DS_Store
+
+
+# The directory Mix will write compiled artifacts to.
+gpio/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+gpio/cover/
+
+# The directory Mix downloads your dependencies sources to.
+gpio/deps/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+gpio/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+gpio/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+gpio/rl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+gpio/.ez
+
+# Ignore package tarball (built via "mix hex.build").
+gpio/pio-*.tar
+
+
+
+ui/_build
+ui/deps
+ui/config/*.secret.exs
+ui/erl_crash.dump
+ui/*.ez
